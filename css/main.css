@@ -1,3 +1,45 @@
-main {
-    font-family: 'Roboto Mono', monospace; 
-    background-color: coral;}
+html {
+    background-color: #AECCCF; 
+  }
+  
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #AECCCF;
+  }
+  
+  h3 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  main {
+      font-family: 'Roboto Mono', sans-serif;
+      background-color: #AECCCF;}
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    
+    @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
